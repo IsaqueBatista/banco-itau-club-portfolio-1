@@ -1,4 +1,4 @@
-import ArrowDown from "../assets/arrow-down.svg";
+import ArrowDown from "../../assets/arrow-down.svg";
 import * as S from "./styles";
 
 export default function ItemMenu({ name }) {

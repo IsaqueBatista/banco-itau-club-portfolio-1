@@ -1,10 +1,12 @@
 
-import Header from "./Components/Header";
+import Header from "./Components/Header/Header";
+import SectionHero from "./Components/SectionHero";
 
 function App() {
   return (
     <>
       <Header />
+      <SectionHero/>
     </>
   );
 }

@@ -3,8 +3,8 @@ import * as S from "./styles";
 
 import ItemMenu from "./ItemMenu";
 
-import LogoItau from "../assets/logo.svg";
-import IconUser from "../assets/icon-user.svg";
+import LogoItau from "../../assets/logo.svg";
+import IconUser from "../../assets/icon-user.svg";
 
 export default function Header() {
   return (
@@ -16,18 +16,20 @@ export default function Header() {
           </div>
 
           <S.Ul>
+
             <S.Li>
               <ItemMenu name="Para você" />
             </S.Li>
-            <S.Ul>
+            <S.Li>
               <ItemMenu name="Para empresas " />
-            </S.Ul>
-            <S.Ul>
+            </S.Li>
+            <S.Li>
               <ItemMenu name="Serviços " />
-            </S.Ul>
-            <S.Ul>
+            </S.Li>
+            <S.Li>
               <ItemMenu name="Ajuda" />
-            </S.Ul>
+            </S.Li>
+            
           </S.Ul>
 
           <S.DivButtonAccess>

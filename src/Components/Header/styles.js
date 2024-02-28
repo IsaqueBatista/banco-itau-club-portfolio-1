@@ -18,7 +18,7 @@ export const ContainerItens = styled.div`
   justify-content: space-between;
   height: 100%;
   max-width: 1246px;
-  padding: 0 50px;
+  padding: 0 15px;
   margin: 0 auto;
 `;
 
@@ -34,8 +34,9 @@ export const Ul = styled.ul`
   align-items: center;
   justify-content: center;
   gap: 40px;
-  cursor: pointer;
+  margin: 0 20px 0 0;
 `;
+
 export const Li = styled.li`
   list-style: none;
 `;
@@ -53,24 +54,24 @@ export const ButtonItemMenu = styled.button`
 `;
 
 export const DivButtonAccess = styled.div`
-    display: flex;
-    align-items: center;
-    height: 70%;
-    padding: 0 20px;
-    background-color: #106eb0;
-    cursor: pointer;
-    border-radius: 3px;
-`
+  display: flex;
+  align-items: center;
+  height: 70%;
+  padding: 0 20px;
+  background-color: #106eb0;
+  cursor: pointer;
+  border-radius: 3px;
+`;
 
 export const ButtonAccess = styled.button`
-    display: flex;
-    align-items: center;
-    background-color: transparent;
-    border: none;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
 
-    gap: 5px;
-    color: white;
-    font-weight: bold;
-    height: 100%;
-    cursor: pointer;
-`
+  gap: 5px;
+  color: white;
+  font-weight: bold;
+  height: 100%;
+  cursor: pointer;
+`;
