@@ -24,7 +24,7 @@ export default function SectionHero() {
               <img src={ImageAppleStore} alt="Apple Store" />
             </S.Button>
             <S.Button>
-              <img src={ImageGooglePlay} alt="Apple Store" />
+              <img src={ImageGooglePlay} alt="Google Play" />
             </S.Button>
           </S.DivButtons>
 
